@@ -23,4 +23,3 @@ Lato
     --green: #22b07d;
 }
 ```
-# Skateboard
