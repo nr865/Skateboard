@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+:root {
+    --white: #ffffff;
+    --overlay: rgba(31, 29, 43, 0.65);
+    --border-45: rgba(255, 255, 255, 0.45);
+    --gray-600: #575369;
+    --gray-700: #252836;
+    --gray-800: #1f1d2b;
+    --orange: #ff7551;
+    --green: #22b07d;
+}
+body{
+    background-color: var(--gray-800)!important;
+    margin:0;
+    height: 100vh;
+    width: auto;
+    color: var(--white)!important;
+    padding-top: 25px;
+}
+ul{
+    list-style-type:none;
+    padding: 0!important;
+    margin: 0!important;
+    line-height: 3.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+nav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover 
+}
+input{
+    padding-left:8px;
+    background-color: var(--gray-600);
+    border: none;
+    border-radius: 4px;
+    width: 60%;
+    height: 35px;
+}
+input::placeholder{
+    color:var(--white);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu p, .category p{
+    text-transform: uppercase;
+    font-weight: 700;
+    color:var(--gray-600);
+    font-size: 0.8rem;
+}
+i{
+    background-color:var(--gray-600);
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.discover h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.most-watched h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.discover .img1{
+    background-image: url("../src/images/04.jpg");
+    height: 335px;
+    width: 55%;
+    object-fit: contain;
+    border-radius: 15px;
+    background-position: -70px -50px;
+}
+.discover .img2{
+    background-image: url("../src/images/05.jpg");
+    height: 335px;
+    width: 35%;
+    object-fit: contain;
+    border-radius: 15px;
+    background-position: 0 -50px;
+}
+.img1 img, .img2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: contain;
+}
